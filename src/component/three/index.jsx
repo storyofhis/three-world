@@ -4,6 +4,13 @@ import { useFrame } from "@react-three/fiber";
 import { useRef, useEffect } from "react";
 import * as THREE from "three";
 
+export class ThirdPersonCamera {
+  constructor(params) {
+    this._params = params;
+    thid._camera = camera;
+  }
+}
+
 export default function Three() {
   const orbitControlsRef = useRef(null);
 
